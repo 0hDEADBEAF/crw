@@ -2,5 +2,10 @@
 name = "crw"
 version = "0.1.0"
 edition = "2024"
+description = "Dominion engine"
+repository = "https://github.com/0hDEADBEAF/crw"
+license = "GPL-3.0-only"
+keywords = ["engine", "dominion"]
+categories = ["artificial-intelligence", "simulation"]
 
 [dependencies]
