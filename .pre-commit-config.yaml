@@ -1,0 +1,25 @@
+default_install_hook_types: [pre-commit, commit-msg, pre-push]
+
+repos:
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v4.19.3
+    hooks:
+      - id: commitizen
+
+  - repo: local
+    hooks:
+      - id: cargo-fmt
+        name: cargo fmt
+        entry: cargo fmt --all --check
+        language: system
+        stages: [pre-commit]
+        pass_filenames: false
+        files: '(\.rs$|^Cargo\.(toml|lock)$|^(rustfmt|rust-toolchain)\.toml$)'
+
+      - id: cargo-clippy
+        name: cargo clippy
+        entry: cargo clippy --workspace --all-targets -- -D warnings
+        language: system
+        stages: [pre-commit]
+        pass_filenames: false
+        files: '(\.rs$|^Cargo\.(toml|lock)$|^(rustfmt|rust-toolchain)\.toml$)'
