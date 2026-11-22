@@ -1,0 +1,24 @@
+name: Branch policy
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, edited, reopened, synchronize]
+
+permissions: {}
+
+jobs:
+  policy:
+    name: Branch policy
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check that the source branch is named <type>/<name>
+        env:
+          BRANCH: ${{ github.head_ref }}
+        run: |
+          types='feat|fix|perf|refactor|docs|test|build|ci|chore|style|revert|release'
+          if [[ ! "$BRANCH" =~ ^($types)/[A-Za-z0-9._/-]+$ ]]; then
+            echo "::error::main only accepts pull requests from branches named <type>/<name>, with <type> in: ${types//|/, } (got '$BRANCH')."
+            exit 1
+          fi
+          echo "Branch name '$BRANCH' is valid."
