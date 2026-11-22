@@ -1,3 +1,3 @@
-fn main() {
-    println!("Hello, world!");
-}
+//! Dominion engine.
+
+const fn main() {}
