@@ -1,0 +1,14 @@
+[package]
+name = "bot"
+description = "TODO"
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+keywords = ["bot", "artificial-intelligence", "dominion"]
+categories = ["artificial-intelligence"]
+
+[dependencies]
+
+[lints]
+workspace = true

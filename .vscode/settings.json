@@ -1,0 +1,6 @@
+{
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.check.workspace": true,
+    "rust-analyzer.check.allTargets": true,
+    "rust-analyzer.cargo.features": "all"
+}
