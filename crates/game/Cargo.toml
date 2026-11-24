@@ -1,0 +1,14 @@
+[package]
+name = "game"
+description = "This crate contains the implementation of the game Dominion."
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+keywords = ["dominion"]
+categories = ["games"]
+
+[dependencies]
+
+[lints]
+workspace = true

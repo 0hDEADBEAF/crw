@@ -1,16 +1,18 @@
-[package]
-name = "crw"
-version = "0.1.0"
+[workspace]
+resolver = "3"
+members = ["bins/simulator", "crates/bot", "crates/game"]
+
+[workspace.package]
 edition = "2024"
-description = "Dominion engine"
+version = "0.1.0"
 repository = "https://github.com/0hDEADBEAF/crw"
 license = "GPL-3.0-only"
-keywords = ["engine", "dominion"]
-categories = ["artificial-intelligence", "simulation"]
 
-[dependencies]
+# [workspace.dependencies]
+# game = { path = "crates/game" }
+# bot = { path = "crates/bot" }
 
-[lints.rust]
+[workspace.lints.rust]
 
 deprecated_safe = "forbid"
 missing_docs = "forbid"
@@ -26,7 +28,7 @@ rust_2024_compatibility = "forbid"
 unknown_or_malformed_diagnostic_attributes = "forbid"
 unused = "forbid"
 
-[lints.clippy]
+[workspace.lints.clippy]
 correctness = { level = "forbid", priority = -1 }
 suspicious = { level = "forbid", priority = -1 }
 complexity = { level = "forbid", priority = -1 }

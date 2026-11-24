@@ -1,0 +1,15 @@
+[package]
+name = "simulator"
+description = "A simulator to train crw"
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+keywords = ["simulator", "dominion"]
+categories = ["command-line-interface", "simulation"]
+
+
+[dependencies]
+
+[lints]
+workspace = true
