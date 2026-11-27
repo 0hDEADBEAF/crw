@@ -2,5 +2,13 @@
     "rust-analyzer.check.command": "clippy",
     "rust-analyzer.check.workspace": true,
     "rust-analyzer.check.allTargets": true,
-    "rust-analyzer.cargo.features": "all"
+    "rust-analyzer.cargo.features": "all",
+    "[json]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.codeActionsOnSave": {
+            "source.sort.json": "explicit"
+        }
+    }
 }
