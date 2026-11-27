@@ -1,0 +1,819 @@
+{
+  "cards": [
+    {
+      "art": {
+        "artists": [
+          "Ryan Laukat"
+        ],
+        "image_name": "copper.jpg"
+      },
+      "cost": 0,
+      "effects": [
+        "+1C"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Copper",
+      "purpose": "Basic",
+      "types": [
+        "Treasure"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Ryan Laukat"
+        ],
+        "image_name": "silver.jpg"
+      },
+      "cost": 3,
+      "effects": [
+        "+2C"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Silver",
+      "purpose": "Basic",
+      "types": [
+        "Treasure"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Ryan Laukat"
+        ],
+        "image_name": "gold.jpg"
+      },
+      "cost": 6,
+      "effects": [
+        "+3C"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Gold",
+      "purpose": "Basic",
+      "types": [
+        "Treasure"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Martin Hoffmann"
+        ],
+        "image_name": "estate.jpg"
+      },
+      "cost": 2,
+      "effects": [
+        "+1VP"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Estate",
+      "purpose": "Basic",
+      "types": [
+        "Victory"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Martin Hoffmann"
+        ],
+        "image_name": "duchy.jpg"
+      },
+      "cost": 5,
+      "effects": [
+        "+3VP"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Duchy",
+      "purpose": "Basic",
+      "types": [
+        "Victory"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Martin Hoffmann"
+        ],
+        "image_name": "province.jpg"
+      },
+      "cost": 8,
+      "effects": [
+        "+3VP"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Province",
+      "purpose": "Basic",
+      "types": [
+        "Victory"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Claus Stephan"
+        ],
+        "image_name": "curse.jpg"
+      },
+      "cost": 0,
+      "effects": [
+        "-1VP"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Curse",
+      "purpose": "Basic",
+      "types": [
+        "Curse"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Ryan Laukat"
+        ],
+        "image_name": "adventurer.jpg"
+      },
+      "cost": 6,
+      "effects": [
+        "Reveal cards from your deck until your reveal 2 Treasure cards. Put those Treasure cards into your hand and discard the other revealed cards."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Adventurer",
+      "purpose": "Basic",
+      "removed": true,
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Harald Lieske"
+        ],
+        "image_name": "artisan.jpg"
+      },
+      "cost": 6,
+      "effects": [
+        "Gain a card to your hand costing up to 5C.",
+        "Put a card from your hand onto your deck."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "Second edition",
+      "name": "Artisan",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Julien Delval"
+        ],
+        "image_name": "bandit.jpg"
+      },
+      "cost": 5,
+      "effects": [
+        "Gain a Gold.",
+        "Each other player reveals the top 2 cards of their deck, trashes a revealed Treasure other than Copper, and discards the rest."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "Second edition",
+      "name": "Bandit",
+      "purpose": "Kingdom",
+      "types": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "bureaucrat.jpg"
+      },
+      "cost": 4,
+      "effects": [
+        "Gain a Silver onto your deck.",
+        "Each other player reveals a Victory card from their hand and puts it onto their deck (or reveals a hand with no Victory cards)."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Bureaucrat",
+      "purpose": "Kingdom",
+      "types": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "cellar.jpg"
+      },
+      "cost": 2,
+      "effects": [
+        "+1A",
+        "Discard any number of cards. +1 Card per card discarded."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Cellar",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "chancellor.jpg"
+      },
+      "cost": 3,
+      "effects": [
+        "+2C",
+        "You may immediatly put your deck into your discard pile."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Chancellor",
+      "purpose": "Kingdom",
+      "removed": true,
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "chapel.jpg"
+      },
+      "cost": 2,
+      "effects": [
+        "Trash up to 4 cards from your hand."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Chapel",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "council_room.jpg"
+      },
+      "cost": 5,
+      "effects": [
+        "+4 Cards",
+        "+1B",
+        "Each other player draws a card."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Council Room",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "feast.jpg"
+      },
+      "cost": 4,
+      "effects": [
+        "Trash this card.",
+        "Gain a card costing up to 5C."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Feast",
+      "purpose": "Kingdom",
+      "removed": true,
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Marcel-André Casasola Merkle"
+        ],
+        "image_name": "festival.jpg"
+      },
+      "cost": 5,
+      "effects": [
+        "+2A",
+        "+1B",
+        "+2C"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Festival",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "gardens.jpg"
+      },
+      "cost": 4,
+      "effects": [
+        "Worth 1VP per 10 cards you have (round down)."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Gardens",
+      "purpose": "Kingdom",
+      "types": [
+        "Victory"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Martin Hoffmann"
+        ],
+        "image_name": "harbinger.jpg"
+      },
+      "cost": 3,
+      "effects": [
+        "+1 Card",
+        "+1A",
+        "Look through your discard pile. You may put a card from it onto your deck."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "Second edition",
+      "name": "Harbinger",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Julien Delval"
+        ],
+        "image_name": "laboratory.jpg"
+      },
+      "cost": 5,
+      "effects": [
+        "+2 Cards",
+        "+1A"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Laboratory",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Harald Lieske"
+        ],
+        "image_name": "library.jpg"
+      },
+      "cost": 5,
+      "effects": [
+        "Draw until you have 7 cards in hand, skipping any Action cards you choose to; set those aside, discarding them afterwards."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Library",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "market.jpg"
+      },
+      "cost": 5,
+      "effects": [
+        "+1 Card",
+        "+1A",
+        "+1B",
+        "+1C"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Market",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Joshua Stewart"
+        ],
+        "image_name": "merchant.jpg"
+      },
+      "cost": 3,
+      "effects": [
+        "+1 Card",
+        "+1A",
+        "The first time you play a Silver this turn, +1C."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "Second edition",
+      "name": "Merchant",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "militia.jpg"
+      },
+      "cost": 4,
+      "effects": [
+        "+2C",
+        "Each other player discards down to 3 cards in hand."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Militia",
+      "purpose": "Kingdom",
+      "types": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Claus Stephan"
+        ],
+        "image_name": "mine.jpg"
+      },
+      "cost": 5,
+      "effects": [
+        "You may trash a Treasure from your hand. Gain a Treasure to your hand costing up to 3C more than it."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Mine",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "moat.jpg"
+      },
+      "cost": 2,
+      "effects": [
+        "+2 Cards"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Moat",
+      "purpose": "Kingdom",
+      "reaction": {
+        "condition": "When another player plays an Attack card.",
+        "effect": "You may first reveal this card from your hand, to be unaffected by the Attack card."
+      },
+      "types": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "moneylender.jpg"
+      },
+      "cost": 4,
+      "effects": [
+        "You may trash a Copper from your hand for +3C."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Moneylender",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Joshua Stewart"
+        ],
+        "image_name": "poacher.jpg"
+      },
+      "cost": 4,
+      "effects": [
+        "+1 Card",
+        "+1A",
+        "+1C",
+        "Discard a card per empty Supply pile."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "Second edition",
+      "name": "Poacher",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "remodel.jpg"
+      },
+      "cost": 4,
+      "effects": [
+        "Trash a card from your hand. Gain a card costing up to 2C more than it."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Remodel",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Eric J Carter"
+        ],
+        "image_name": "sentry.jpg"
+      },
+      "cost": 5,
+      "effects": [
+        "+1 Card",
+        "+1A",
+        "Look at the top 3 cards of your deck. Trash and/or discard any number of them. Put the rest back on top in any order."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "Second edition",
+      "name": "Sentry",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "smithy.jpg"
+      },
+      "cost": 4,
+      "effects": [
+        "+3 Cards"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Smithy",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Michael Menzel"
+        ],
+        "image_name": "spy.jpg"
+      },
+      "cost": 4,
+      "effects": [
+        "+1 Card",
+        "+1A",
+        "Each player (including you) reveals the top card of their deck and either discards it or puts it back, your choice."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Spy",
+      "purpose": "Kingdom",
+      "removed": true,
+      "types": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Julien Delval"
+        ],
+        "image_name": "thief.jpg"
+      },
+      "cost": 4,
+      "effects": [
+        "Each other player reveals the top 2 cards of their deck. If they revealed any Treasure cards, they trash one of them that you choose. You may gain any or all of these trashed cards. They discard the other revealed cards."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Thief",
+      "purpose": "Kingdom",
+      "removed": true,
+      "types": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Harald Lieske"
+        ],
+        "image_name": "throne_room.jpg"
+      },
+      "cost": 4,
+      "effects": [
+        "You may play an Action card from your hand twice."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Throne Room",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Julien Delval"
+        ],
+        "image_name": "vassal.jpg"
+      },
+      "cost": 3,
+      "effects": [
+        "+2C",
+        "Discard the top card of your deck. If it's an Action card, you may play it."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "Second edition",
+      "name": "Vassal",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Claus Stephan"
+        ],
+        "image_name": "village.jpg"
+      },
+      "cost": 3,
+      "effects": [
+        "+1 Card",
+        "+2A"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Village",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "witch.jpg"
+      },
+      "cost": 5,
+      "effects": [
+        "+2 Cards",
+        "Each other player gains a Curse."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Witch",
+      "purpose": "Kingdom",
+      "types": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Matthias Catrein"
+        ],
+        "image_name": "woodcutter.jpg"
+      },
+      "cost": 3,
+      "effects": [
+        "+1B",
+        "+2C"
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Woodcutter",
+      "purpose": "Kingdom",
+      "removed": true,
+      "types": [
+        "Action"
+      ]
+    },
+    {
+      "art": {
+        "artists": [
+          "Christof Tisch"
+        ],
+        "image_name": "workshop.jpg"
+      },
+      "cost": 3,
+      "effects": [
+        "Gain a card costing up to 4C."
+      ],
+      "expansion": "Base",
+      "expansion_edition": "First edition",
+      "name": "Workshop",
+      "purpose": "Kingdom",
+      "types": [
+        "Action"
+      ]
+    }
+  ],
+  "expansions": [
+    {
+      "editions": [
+        {
+          "cover": {
+            "artists": [
+              "Matthias Catrein"
+            ],
+            "image_name": "base_e1.jpg"
+          },
+          "name": "First edition",
+          "release_date": "October 2008"
+        },
+        {
+          "cover": {
+            "artists": [
+              "Julien Delval"
+            ],
+            "image_name": "base_e2.jpg"
+          },
+          "name": "Second edition",
+          "release_date": "October 2016"
+        }
+      ],
+      "name": "Base"
+    }
+  ]
+}
